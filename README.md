@@ -14,3 +14,20 @@ KiroCrafters
 
 ## Description
 The project focuses on improving structured thinking, documentation-first development, and real-world software design learning for developers.
+
+## How to Review This Repo
+
+1. Open requirements.md to see the detailed specifications.
+2. Open design.md to see the architecture and design details.
+
+## What This Project Focuses On
+
+- Teaching structured thinking using AI
+- Improving learning and developer productivity
+- Spec-to-Design workflow
+
+## Project Status
+
+This submission contains complete documentation as per hackathon requirements.
+
+
