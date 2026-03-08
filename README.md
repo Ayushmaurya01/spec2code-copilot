@@ -1,33 +1,87 @@
 # Spec2Code Copilot
 
-Spec2Code Copilot is an AI-powered learning and developer productivity tool that helps students and early-stage developers convert natural language ideas into structured software requirements and system designs using a Spec-to-Design workflow.
+AI-powered learning platform that transforms natural language project ideas into structured, professional software specifications.
 
-## Hackathon
-AI for Bharat Hackathon (Powered by AWS)
+## 🎯 Purpose
 
-## Team
-KiroCrafters
+Spec2Code Copilot bridges the gap between ideation and professional software development by helping students and early-stage developers create industry-standard documentation.
 
-## Contents
-- requirements.md — Project requirements and specifications
-- design.md — System architecture and design details
+## 🚀 Quick Start
 
-## Description
-The project focuses on improving structured thinking, documentation-first development, and real-world software design learning for developers.
+### Prerequisites
+- Python 3.11 or higher
+- pip package manager
 
-## How to Review This Repo
+### Installation
 
-1. Open requirements.md to see the detailed specifications.
-2. Open design.md to see the architecture and design details.
+1. Clone the repository:
+```bash
+git clone <repository-url>
+cd spec2code-copilot
+```
 
-## What This Project Focuses On
+2. Install dependencies:
+```bash
+pip install -r requirements.txt
+```
 
-- Teaching structured thinking using AI
-- Improving learning and developer productivity
-- Spec-to-Design workflow
+3. Run the application:
+```bash
+streamlit run app.py
+```
 
-## Project Status
+4. Open your browser to `http://localhost:8501`
 
-This submission contains complete documentation as per hackathon requirements.
+## 📖 How to Use
 
+1. Enter your project idea in the text area
+2. Provide as much detail as possible about features, users, and goals
+3. Click "Generate Specification"
+4. Review the generated sections:
+   - Project Summary
+   - Functional Requirements
+   - Suggested Architecture
+   - Development Plan
+5. Download the specification as Markdown
 
+## 🏗️ Project Structure
+
+```
+spec2code-copilot/
+├── app.py              # Main Streamlit application
+├── requirements.txt    # Python dependencies
+├── requirements.md     # Project requirements document
+├── design.md          # System design document
+├── README.md          # This file
+└── .kiro/
+    └── steering/      # AI assistant guidance files
+```
+
+## 🎓 Hackathon Context
+
+- **Event:** AI for Bharat Hackathon (AWS)
+- **Track:** AI for Learning & Developer Productivity
+- **Team:** KiroCrafters
+
+## 🎯 Target Users
+
+- Computer science students learning software engineering
+- Self-taught developers transitioning to professional development
+- Hackathon participants needing quick project structuring
+- Bootcamp graduates preparing for industry work
+
+## 🔮 Future Enhancements
+
+- Real AI integration (AWS Bedrock/OpenAI)
+- User authentication and project saving
+- Iterative refinement of generated specs
+- Multiple export formats (PDF, HTML)
+- GitHub integration for direct repository creation
+
+## 📝 License
+
+MIT License - See LICENSE file for details
+
+## 👥 Team
+
+KiroCrafters - AI for Bharat Hackathon 2024
